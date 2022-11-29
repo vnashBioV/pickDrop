@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+body{
+  background-color: #F2F2F2;
+}
+*{
+  box-sizing: border-box;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,6 +32,21 @@
 .App-link {
   color: #61dafb;
 }
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width:1024px) {
+  .load-shipping p{
+    font-size: 13px !important;
+  }
+  .cargo-cargo p{
+    font-size: 13px !important;
+  }
+}
+
 
 @keyframes App-logo-spin {
   from {

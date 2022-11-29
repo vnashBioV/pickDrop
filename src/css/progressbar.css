@@ -1,0 +1,12 @@
+.progress-bar-comp{
+    height: 10px;
+    background: rgb(181, 181, 181);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.progress-perc{
+    height: 100%;
+    width: 0;
+    background: #ffe22b;
+    border-radius: 10px;
+}

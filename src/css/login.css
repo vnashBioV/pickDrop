@@ -1,0 +1,340 @@
+.login-form{
+    width: 330px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 19px;
+    border-radius: 15px;
+    z-index: 1;
+    background: #fff;
+    transition: .5s all;
+}
+.login-form > input{
+    width: 100%;
+    max-width: 100%;
+    padding: 13px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #f1f1f1;
+    font-size: 14px;
+}
+.login-btn{
+    width: 100%;
+    max-width: 100%;
+    height: 48px;
+    background: #ffe200;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: normal;
+    margin-bottom: 11px;
+}
+
+.login-btn i{
+    position: absolute;
+    right: 23px;
+    font-size: 16px;
+}
+
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.side-section{
+    height: 230%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: -142px;
+    left: 27px;
+    transform: rotate(45deg);
+    background: #333;
+    padding: 0px 27px 0px 0px;
+}
+/* .side-section::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+.login-form h2{
+    font-size: 13px;
+    font-weight: normal;
+    color: #6b6b6b;
+}
+.login-form span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: #000;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.register{
+    width: 70%;
+    margin: auto;
+    background: #fff;
+    margin-top: 35px;
+}
+.register > div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 27px;
+    border-radius: 15px;
+}
+.register > div > div > h3{
+    font-size: 15px;
+    margin-bottom: 11px;
+}
+.register > div:nth-child(2) > h3{
+    font-size: 17px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.register > div:nth-child(2), .register > div:nth-child(3){
+    padding: 10px 49px;
+}
+.register > div > div{
+    width: 50%;
+    padding: 10px 23px;
+}
+.register > div > div > input, 
+.register > div > div > select, 
+.postal-code{
+    width: 100%;
+    padding: 9px 10px;
+    background: #f1f1f1;
+    border: transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+/* .register > div > div > select{
+    width: 104% !important;
+} */
+.register > div > div > label > input{
+    margin-bottom: 0 !important;
+}
+.register > div > div > label{
+    /* padding: 9px 10px;
+    background: #f1f1f1;
+    border: transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 5px;  */
+    display: flex;
+    align-items: flex-start;
+}
+.postal-code{
+    padding: 0;
+    height: 4%;
+    display: flex;
+    justify-content: space-between;
+    width: 104%;
+}
+.postal-code > input, .postal-code > select{
+    width: 50%;
+    background: #f1f1f1;
+    border: transparent;
+}
+.postal-code > select{
+    border-radius: 0px 10px 10px 0px;
+}
+.postal-code > input{
+    padding: 10px;
+    /* border: 1px solid; */
+    border-radius: 10px 0px 0px 10px;
+}
+.register > div > div > p{
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+.upload-files{
+    background: #f1f1f1;
+    width: 35%;
+    padding: 11px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.upload-files > div{
+    width: 100%;
+}
+
+.register > div > div:nth-child(1) >  label, .register > div > div:nth-child(2) >  label{
+    font-weight: normal !important;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.register > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+.partner{
+    padding: 0 !important;
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+}
+.partner > input, .partner > select{
+    width: 25% !important;
+    border: 1px solid #c1c1c1 !important;
+    border-radius: 0px !important;
+    padding: 5px !important;
+    margin-bottom: 0 !important;
+}
+.partner > select{
+    padding: 6px !important;
+    background: #ffe200 !important;
+}
+.register > div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+}
+.register > div:nth-child(3) > h3{
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+.register > div:nth-child(3) > p{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 7px;
+}
+.sa-province{
+    display: flex;
+    padding: 11px 0 !important;
+}
+.sa-province > div:nth-child(1) > p, .sa-province > div:nth-child(2) > p{
+    font-size: 14px;
+    margin-bottom: 9px;
+}
+.sa-province > div:nth-child(1) > label, .sa-province > div:nth-child(2) > label, .vehicle-type > div > label{
+    font-weight: normal !important;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+.sa-province > div:nth-child(1){
+    padding: 0;
+    margin-right: 70px;
+}
+.sa-province > div, .vehicle-type > div{
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+.vehicle-type > div{
+    width: 50%;
+}
+.vehicle-type{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 2px 0 0 0 !important;
+}
+.vehicle-type > div > p{
+    font-size: 14px !important;
+    margin-left: 0px !important;
+}
+.add-director{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.add-director > div > i{
+    background: #ffe201;
+    padding: 5px;
+    margin-right: 7px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.add-director > div:nth-child(1) {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.add-director > div:nth-child(2) {
+    width: 30%;
+}
+.add-director > div:nth-child(2){
+    display: flex;
+    justify-content: end;
+}
+.add-director > div:nth-child(1) p{
+    padding: 10px;
+    background: #d4d4d4;
+    width: 31%;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    height: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    width: 200px;
+    font-size: 12px;
+}
+.sign-up-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100px;
+}
+.senderer{
+    padding: 10px 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 0;
+    color: #ffe200;
+    cursor: pointer;
+    background: #333333;
+}
+.login-select{
+    margin-bottom: 12px;
+    width: 100%;
+    max-width: 100%;
+    height: 49px;
+    border: transparent;
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 6px 10px;
+    height: 45px;
+}
+.forgot-par{
+    align-self: self-start;
+    color: #474747;
+    cursor: pointer;
+    font-size: 13px;
+}

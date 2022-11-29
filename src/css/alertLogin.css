@@ -1,0 +1,23 @@
+.login-alert{
+    width: 228px;
+    padding: 20px;
+    background: #fff;
+    position: absolute;
+    z-index: 999;
+    height: fit-content;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.alert-btnn{
+    margin-top: 14px;
+    width: 93px;
+    padding: 6px;
+    border: none;
+    background: #ffe22b;
+    border-radius: 5px;
+    cursor: pointer;
+}

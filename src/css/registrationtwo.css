@@ -1,0 +1,64 @@
+.registration > form{
+    width: 330px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 19px;
+    border-radius: 15px;
+    z-index: 1;
+    background: #fff;
+    transition: .5s all;
+}
+.registration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.registration > form > input{
+    width: 100%;
+    max-width: 100%;
+    padding: 13px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #f1f1f1;
+    font-size: 14px;
+}
+.registration > form > h1{
+    margin-bottom: 19px;
+    text-align: center;
+    font-size: 25px;
+}
+/* .registration > form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} */
+.registration > form > button{
+    height: 43px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffe200;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+.registration > form > a{
+    text-decoration: none;
+    color:#000;
+    margin-bottom: 10px;
+}
+.registration > form > p:last-of-type, .registration > form > a{
+    text-align: center;
+}
+.registration > form > p:last-of-type{
+    margin-top: 16px;
+}
+.registration > form > p:not(.registration > form > p:last-of-type){
+    color: red;
+    margin-bottom: 10px;
+}

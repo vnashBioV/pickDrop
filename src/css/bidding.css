@@ -1,0 +1,331 @@
+.bidding{
+    width: 73%;
+    max-width: 73%;
+    margin: auto;
+}
+.bidding > div > a >i {
+    width: 18px;
+    color: black;
+    background: #fff;
+    padding: 16px;
+    border-radius: 100%;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.bidding > div > span > p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.deals{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 15px;
+    /* border: solid; */
+    margin-bottom: 2rem;
+}
+.deals > div:nth-child(1){
+    width: 30%;
+    background-color: #E8E8E8;
+    border-radius: 10px 0px 0px 10px;
+    max-height: 500px;
+    min-height: 500px;
+    overflow: scroll;
+
+}
+
+.deals > div:nth-child(2){
+    width: 70%;
+    background-color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    max-height: 500px;
+    min-height: 500px;
+    overflow: scroll;
+    overflow: auto;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none;
+}
+
+.default-filter{
+    padding: 19px 0;
+}
+.default-filter > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.default-filter > div:not(.default-filter > div:nth-child(1)){
+    border-bottom: 1px solid #9e9e9e;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+.default-filter > div:nth-child(1){
+    margin-bottom: 26px;
+    padding: 0px 19px 0px 19px;
+}
+/* .deals-card > div:nth-child(1) {
+align-items: stretch;
+} */
+.default-filter > div > h1{
+    font-weight: normal;
+}
+.default-filter > div > p{
+font-size: 11px;
+}
+.deals-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 10px 19px 0px 19px;
+}
+.deals-card:hover{
+    background-color: #cacaca;
+}
+.deals-card > div:nth-child(1){
+    width: 70%;
+}
+.deals-card > div:nth-child(1) > h2{
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.deals-card > div:nth-child(1) > p{
+    font-size: 11px;
+    color: #606060;
+}
+.deals-card > div:nth-child(2){
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: end;
+}
+.deals-card > div:nth-child(2) > p{
+    font-size: 11px;
+    color: #606060;
+}
+.trip-deals{
+    padding: 19px;
+}
+.trip-deals > div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+.trip-deals > div > div:nth-child(2){
+    display: flex;
+}
+.trip-deals > div > div{
+    align-items: center;
+}
+.trip-deals > div > div:nth-child(2) >span{
+    margin-right: 10px;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: black;
+    color: red;
+    width: 6px;
+    height: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.trip-deals > div > div:nth-child(2){
+    cursor: pointer;
+}
+.trip-deals > div > div:nth-child(2) > p{
+    color: red;
+}
+.trip-deals > div:nth-child(1) > div:nth-child(1) > h2{
+    font-weight: normal;
+    font-size: 16px;
+}
+.trip-deals > div:nth-child(1) > div:nth-child(1) > p{
+    color: #606060;
+    margin-top: 6px;
+}
+.asking-rate{
+    margin-top: 23px;
+    padding: 22px 10px;
+    border-radius: 18px;
+    box-shadow: 0px 4px 15px -1px #a7afb36e;
+}
+.asking-rate > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer-title{
+    margin-top: 38px;
+}
+.offer-title > h2{
+    font-weight: 500;
+}
+.offer-title > p{
+    font-size: 12px;
+}
+.offer-indication{
+    display: flex;
+    margin: 12px 0px;
+    justify-content: space-between;
+}
+.offer-indication > div > div > div{
+    width: 3px;
+    height: 3px;
+    padding: 7px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.offer-indication > div > div > p{
+    font-size: 11px;
+    margin-right: 15px;
+}
+.offer-indication > div > div{
+    display: flex;
+}
+.actual-offers{
+    padding: 10px;
+    background: #F5F5F5;
+    border-radius: 15px;
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 10px;
+}
+/* .actual-offers>div{
+    width:20%;
+} */
+/* .actual-offers::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 16px;
+    height: 100%;
+    background: #FFE200;
+    border-radius: 15px 0px 0px 15px;
+} */
+.counter::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 16px;
+    height: 100%;
+    background: #213164;
+    border-radius: 15px 0px 0px 15px;
+}
+.confirmed::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 16px;
+    height: 100%;
+    background: #059E00;
+    border-radius: 15px 0px 0px 15px;
+}
+.loads-offered{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loads-offered p{
+    font-size: 11px;
+}
+/* .loads-offered > div:nth-child(2){
+    margin-left: 123px;
+} */
+.loads-offered > div:nth-child(2) > div > input{
+    padding: 4px 15px;
+    width: 88px;
+    background: #E8E8E8;
+    border: transparent;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 12px;
+    height: fit-content;
+    color: #000;
+}
+.loads-offered > div:nth-child(2) > div > button{
+    padding: 3px 10px;
+    font-size: 12px;
+    width: 68px;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid #707070;
+    cursor: pointer;
+}
+.accept-offer{
+    padding: 4px 15px;
+    width: 95px;
+    border-radius: 15px;
+    border: transparent;
+    background: #FFE200;
+    cursor: pointer;
+}
+.accept-deactivated{
+    padding: 4px 15px;
+    width: 95px;
+    border-radius: 15px;
+    border: transparent;
+    background: #FFE200;
+    cursor: pointer;
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: .5;
+}
+.decline-offer{
+    padding: 4px 15px;
+    width: 87px;
+    border: 1px solid;
+    border-radius: 15px;
+    background: #F5F5F5;
+    cursor: pointer;
+}
+/* .trip-deals > div:nth-child(5) > div > div > div:nth-child(1){
+    width: 163px;
+} */
+.fleets-offers{
+    display: flex;
+    flex-direction: column;
+    align-items: unset !important;
+    justify-content: center;
+    width: 100%;
+}
+.yellowBidding{
+    left: 0;
+    width: 13px;
+    background: #ffe201;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 10px 0px 0px 10px;
+}
+.blueBidding{
+    left: 0;
+    width: 13px;
+    background: rgb(33, 49, 100);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 10px 0px 0px 10px;
+}
+.backGreen{
+    left: 0;
+    width: 13px;
+    background: #059E00;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 10px 0px 0px 10px;
+}
